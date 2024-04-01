@@ -1,0 +1,55 @@
+/* week 06 본문을 양쪽 정렬(justify)하고 핵심 키워드(CSS)는 빨간색(red)과 밑줄(Underline)을 추가해 봅시다.*/
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+/* p {
+    margin-bottom : 25px
+} */
+ul, li {
+    text-align: left; /* 또는 제거 */
+    color : #DF0174;
+}
+ul.li {
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    color : red;
+    
+    text-decoration: none;
+}
+p {
+    margin-top : 60px
+}    
+#Chin {
+    color : gray;
+}
+#CK {
+    color : #B4045F;
+}
+#Louie {
+    color : #FA5882;
+}
+
+p.verse {
+    margin-top : 30px;
+    background-color: #FA5882;
+    font-style: italic;
+    font-weight: bold;
+    display: inline; /* 텍스트에만 배경색을 적용하기 위해 인라인 요소로 변경 */
+    padding: 5px 10px; /* 내부 여백을 추가하여 텍스트와 배경 사이의 간격을 유지 */
+    /* border: 1px solid black; 경계선 추가 */
+
+}
+
+p.hook {
+    background-color: antiquewhite;
+    display: inline; /* 텍스트에만 배경색을 적용하기 위해 인라인 요소로 변경 */
+    padding: 5px 10px; /* 내부 여백을 추가하여 텍스트와 배경 사이의 간격을 유지 */
+    margin-bottom: 130px;
+    /* border: 1px solid black; 경계선 추가 */
+}
+h1 {
+    font-weight: bold;
+}
