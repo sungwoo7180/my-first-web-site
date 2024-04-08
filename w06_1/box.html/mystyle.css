@@ -1,0 +1,84 @@
+/* mystyle.css */
+/* h1 {
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    padding : 10px;
+  }
+  
+a {
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+  } */
+  
+/* 
+h1, a {
+    border-width: 5px;
+    border-color: red;
+    border-style : solid;
+    padding : 10px;
+    margin : 0px; 
+  }
+
+h1 {
+  border:5px red solid;
+  padding : 10px;
+  margin : 0;
+  width : 500px;
+  height : 300px;
+} */
+
+h1 {
+  font-size: 45px;
+  text-align: center;      /* 가운데 정렬 */
+  border-bottom: 3px solid gray;
+  margin: 0px;
+  padding: 20px;
+}
+
+ol {
+  border-right: 3px solid gray;
+  width: 100px;
+  margin: 0px;
+  padding: 30px;
+  font-size: 15px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#grid { 
+  border: 10px solid gray;
+  display: grid;
+  grid-template-columns: 162.4px 1fr;
+  /* 왼쪽 목차를 고정으로 해놓고  */
+}
+#left-grid {
+  border-right : 10px solid gray;
+}
+#right-grid {
+  text-align: center;
+}
+
+li {
+  font-size : 16px;
+  font-weight : bolder ;
+}
+
+
+@media(max-width:800px) {
+  #grid {
+    display : block;
+  }
+  h1 {
+    border-bottom: none;
+    font-size: 25px;
+  }
+  #grid ol {
+    border-right : block; 
+  }
+}
+

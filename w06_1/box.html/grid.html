@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border : 5px solid gray;
+        }
+        #grid {
+            border: 5px solid hotpink;  
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            /* 1 대 1 의 비율로 넣고 싶다. */
+            /* grid-template-columns: 1fr 1fr; */
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">
+        <div>navigation</div>
+        <div>article</div>
+    </div>
+
+</body>
+</html>
